@@ -1,0 +1,136 @@
+@charset "UTF-8";
+header {
+	height: 105px;
+	display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    width: 315px;
+    height: 49px;
+}
+.g-nav {
+    width: 498px;
+    height: 24px;
+}
+.g-nav ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.g-nav li {
+    margin-right: 1em;
+}
+.g-nav li a{
+    text-decoration: none;
+    color: #272727;
+}
+.g-nav li a:hover{
+    color: #ffaa17;
+}
+.top {
+    width: 100%;
+    background-image: url("../images/top.png");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.top p {
+    display: block;
+    width: 170px;
+    height: 141px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bukkding{
+    background-color: #F1EDE7;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    padding-top: 139px;
+    background-size:contain;
+}
+.house-building {
+    width: 819px;
+    height: 150px;
+    margin: 0 auto 94px;
+    text-align: center;
+}
+.house-building span {
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 46px;
+}
+.orange {
+    font-size: 20px;
+    color: #FFAA17;
+}
+.building-copy {
+    width: 975px;
+    line-height: 38px;
+    height: 38px;
+    padding-right: 54px;
+    margin-right: 100px;
+    text-align: right;
+    background-image: url("../images/title.png");
+    background-repeat: no-repeat;
+}
+.building-box {
+    display: flex;
+    margin-bottom: 78px;
+}
+.building-box ul{
+    font-size: 22px;
+    font-weight: bold;
+}
+.building-box li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+.building-box li::before{
+    content: url("../images/check.png") ;
+    padding-right: 18px;  
+    border-right: 3px solid #272727;
+    margin-right: 0.6em;
+}
+.building-topics {
+    display: flex;
+    align-items:flex-end;
+}
+
+.building-topics .left {
+    width: 1183px;
+    height: 512px;
+    z-index: 1;
+    position: relative;
+}
+.building-topics .right{
+    width: 778px;
+    height: 445px;
+    background-image: url("../images/main-kizi1.png");
+    position: relative;
+    z-index: 2;
+    padding:50px 50px;
+    box-sizing: border-box;
+}
+.building-topics .right h3{
+    font-size: 25px;
+    color: #272727;
+    margin-bottom: 29px;
+}
+.building-topics .right p{
+    line-height: 36px;
+}
+.building-topics.topics1 .right{
+    margin: 0 0 -32px -272px;
+}
+.building-topics.topics2 .right{
+    margin: 0 -272px -24px 0;
+}
+.topics2 {
+    justify-content: flex-end;
+}
+.topics1,.topics2 {
+    margin-bottom: 124px;
+}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.photo {
+width:300px;
+margin: 100px auto 0; /*ボックスを中央揃え*/
+display:flex; /*サムネイルを横並びに配置*/
+justify-content: space-around;
+}
+.thumbnail {
+width:150px;
+}
+.thumbnail img{
+width:150px;
+height: auto;
+}
