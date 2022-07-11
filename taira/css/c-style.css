@@ -5,14 +5,14 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-header h1 {
+/* header h1 {
     width: 315px;
     height: 49px;
-}
-.g-nav {
+} */
+/* .g-nav {
     width: 498px;
     height: 24px;
-}
+} */
 .g-nav ul {
     width: 100%;
     display: flex;
@@ -51,6 +51,21 @@ header h1 {
     padding-top: 139px;
     background-size:contain;
 }
+.bukkding-2{
+    background-color: #F9F7F5;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    padding-top: 139px;
+    background-size:contain;
+}
+.bukkding-3{
+    background-color: #FFFFFF;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    padding-top: 139px;
+    background-size:contain;
+}
+
 .house-building {
     width: 819px;
     height: 150px;
@@ -99,38 +114,107 @@ header h1 {
     align-items:flex-end;
 }
 
-.building-topics .left {
+.building-topics .pic {
     width: 1183px;
     height: 512px;
     z-index: 1;
     position: relative;
 }
-.building-topics .right{
-    width: 778px;
+.building-topics .textbox{
+    width: 50%;
     height: 445px;
     background-image: url("../images/main-kizi1.png");
-    position: relative;
+    position: absolute;
     z-index: 2;
-    padding:50px 50px;
+    padding:50px 3%;
     box-sizing: border-box;
 }
-.building-topics .right h3{
+.textbox .textbox-child {
+    width: 80%;
+}
+
+.building-topics .textbox h3{
     font-size: 25px;
     color: #272727;
     margin-bottom: 29px;
 }
-.building-topics .right p{
+.building-topics .textbox p{
     line-height: 36px;
 }
-.building-topics.topics1 .right{
-    margin: 0 0 -32px -272px;
+.building-topics.topics1 .textbox{
+    margin: 0 0 -32px 47%;
 }
-.building-topics.topics2 .right{
-    margin: 0 -272px -24px 0;
+.building-topics.topics2 .textbox{
+    margin: 0 47% -24px 0;
 }
 .topics2 {
     justify-content: flex-end;
 }
 .topics1,.topics2 {
     margin-bottom: 124px;
+}
+
+.works {
+    text-align: center;
+    /* flex-wrap: wrap; */
+    margin: 0 15% 124px 15%;
+}
+
+.works .works-child {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.works .pic-container {
+    position: relative;
+    width: 419px;
+    height: 264px;
+}
+.works .pic-container p {
+    position: absolute;
+    padding: 3%;
+    left: 3%;
+    bottom: 3%;
+    margin:0;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 17px;
+}
+
+.land {
+    text-align: center;
+    /* flex-wrap: wrap; */
+    margin: 0 15% 124px 15%;
+}
+
+.company {
+    margin: 0 15% 124px 15%;
+}
+
+.company .greet {
+    margin: 0 20%;
+}
+
+.company .greet h3 {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.company .greet p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.company .greet .right{
+    text-align: right;
+}
+
+.company .abstruct h3 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 24px;
 }
