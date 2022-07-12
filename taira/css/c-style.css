@@ -53,14 +53,14 @@ header {
 }
 .bukkding-2{
     background-color: #F9F7F5;
-    background-image: url("../images/background.png");
+    background-image: url("../images/background2.png");
     background-repeat: no-repeat;
     padding-top: 139px;
     background-size:contain;
 }
 .bukkding-3{
     background-color: #FFFFFF;
-    background-image: url("../images/background.png");
+    background-image: url("../images/background3.png");
     background-repeat: no-repeat;
     padding-top: 139px;
     background-size:contain;
@@ -217,4 +217,7 @@ header {
     text-align: center;
     font-size: 28px;
     margin-bottom: 24px;
+}
+.googlemap {
+	float: left;
 }
